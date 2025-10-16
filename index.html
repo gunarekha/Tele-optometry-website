@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angel Vision Care | Tele-Optometry</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1>👁️ Angel Vision Care</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#book">Book Appointment</a>
+      <a href="#test">Vision Test</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your Eyes, Our Care — Anywhere Anytime 💙</h2>
+    <p>Certified Optometrist offering online eye consultations & vision tests.</p>
+    <a href="#book" class="btn">Book a Consultation</a>
+  </section>
+
+  <section id="services" class="section">
+    <h2>👓 Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Online Eye Consultation</h3>
+        <p>Discuss eye problems through video call & get professional advice.</p>
+      </div>
+      <div class="card">
+        <h3>Vision Screening</h3>
+        <p>Check your distance & near vision using online tools.</p>
+      </div>
+      <div class="card">
+        <h3>Digital Eye Care Guidance</h3>
+        <p>Solutions for eye strain, computer vision, and healthy screen habits.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="book" class="section form-section">
+    <h2>📅 Book Appointment</h2>
+    <form id="appointmentForm" action="https://formspree.io/f/myznlvvk" method="POST">
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="tel" name="phone" placeholder="Phone Number" required>
+  <input type="date" name="date" required>
+  <textarea name="message" placeholder="Describe your eye issue..." rows="4"></textarea>
+  <button type="submit" class="btn">Confirm Booking</button>
+</form>
+
+    <p id="confirmation"></p>
+  </section>
+
+  <section id="test" class="section">
+    <h2>🧠 Online Vision Test Links</h2>
+    <ul>
+      <li><a href="https://www.essilor.com/en/vision-tests/" target="_blank">Essilor Vision Screening</a></li>
+      <li><a href="https://www.zeiss.com/vision-care/int/better-vision/zeiss-online-vision-screening-check.html" target="_blank">ZEISS Vision Check</a></li>
+      <li><a href="https://enchroma.com/pages/color-blind-test" target="_blank">Color Vision Test</a></li>
+    </ul>
+  </section>
+
+  <footer id="contact">
+    <h3>📞 Contact</h3>
+    <p>WhatsApp / Call: <b>+91 7092896767</b></p>
+    <p>Email: <b>angelvisioncare@gmail.com</b></p>
+    <p>© 2025 Angel Vision Care — All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

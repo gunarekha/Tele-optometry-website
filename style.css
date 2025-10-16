@@ -1,0 +1,43 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: "Poppins", sans-serif; }
+
+body { background: #f9fafb; color: #333; line-height: 1.6; }
+
+.navbar {
+  background: #0077b6; color: #fff; display: flex;
+  justify-content: space-between; align-items: center;
+  padding: 1rem 2rem; flex-wrap: wrap;
+}
+.navbar h1 { font-size: 1.5rem; }
+.navbar a { color: #fff; text-decoration: none; margin: 0 0.8rem; }
+.navbar a:hover { text-decoration: underline; }
+
+.hero {
+  text-align: center; padding: 4rem 2rem; background: #caf0f8;
+}
+.hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+.btn {
+  display: inline-block; background: #0077b6; color: #fff;
+  padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none;
+  transition: 0.3s;
+}
+.btn:hover { background: #023e8a; }
+
+.section { padding: 3rem 2rem; text-align: center; }
+.cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem; margin-top: 1rem;
+}
+.card {
+  background: #fff; padding: 1.5rem; border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.form-section form {
+  max-width: 500px; margin: auto; display: flex; flex-direction: column;
+}
+form input, form textarea {
+  margin: 0.5rem 0; padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px;
+}
+form button { margin-top: 0.5rem; cursor: pointer; }
+footer {
+  background: #0077b6; color: #fff; text-align: center; padding: 2rem 1rem;
+}
